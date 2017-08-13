@@ -176,10 +176,10 @@ header .logo img{
     border-color: #f9cbcd;
 }
 .navbar-inverse .navbar-toggle {
-    border-color: #f9cbcd;
-    border: 2px solid #f9cbcd;
-    border-radius: 0;
+    border: 2px dashed #fcb6c1;
+    border-radius: 5px;
     margin-top: 23px;
+    background: white;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #f9cbcd;
@@ -220,6 +220,10 @@ header .logo img{
 
 .navbar-nav>.active>a:hover {
     color: #29190b;
+ }
+
+ .navbar-collapse {
+   margin-top: 30px;
  }
  /* Main Section */
  .questionare-btn{
