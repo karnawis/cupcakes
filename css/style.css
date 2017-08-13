@@ -152,17 +152,16 @@ section#main-content .container{
     padding:0;
 }
 header .logo{
-    display: block;
-    width: 110px;
-  height: 110px;
+  display: block;
+  width: 170px;
+  height: 170px;
   position: absolute;
   z-index: 9999;
 }
 header .logo img{
 	display: block;
 	width: 100%;
-    height: auto;
-	height: auto;
+  height: auto;
 }
 .navbar-inverse {
 	background-color: white;
@@ -216,11 +215,11 @@ header .logo img{
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #f9cbcd;
+    color: #29190b;
 }
 
 .navbar-nav>.active>a:hover {
-    color: #f9cbcd;
+    color: #29190b;
  }
  /* Main Section */
  .questionare-btn{
@@ -230,7 +229,11 @@ header .logo img{
     height: 100px;
     background-size: 100%;
  }
-
+ .stripped-bar {
+     background: repeating-linear-gradient(to right, #fcb6c1, #fcb6c1 10px, #f9cbcd 10px, #f9cbcd 20px);
+     width: 100%;
+     height: 20px;
+ }
 .stick{
     display: block;
     width: 19px;
@@ -424,9 +427,8 @@ footer {
 /* Desktop */
 @media (min-width: 768px){
     .navbar-nav {
-        float: left;
+        float: right;
         margin: 0;
-        padding-left: 30px;
     }
 }
 
