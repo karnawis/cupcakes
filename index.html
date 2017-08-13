@@ -206,12 +206,19 @@ $(function () {
 <script>
 function myMap() {
   var mapCanvas = document.getElementById("map");
-	//var myLatLng = 
+	//var myLatLng =
 	//var iconImg  = "img/logo.png";
   var mapOptions = {
     center: new google.maps.LatLng(43.761539, -79.411079), zoom: 10, scrollwheel: false
   };
   var map = new google.maps.Map(mapCanvas, mapOptions);
+
+	var image = 'img/pin.png';
+  var marker = new google.maps.Marker({
+    position: {lat: 43.761539, lng: -79.411079},
+    map: map,
+    icon: image
+  });
 }
 </script>
 
